@@ -1,0 +1,49 @@
+body{
+background-image: url(../../img/tennis.jpg);
+background-size: cover;
+}
+
+.header{
+    position: absolute;
+    background-color:  rgb(177, 175, 197);
+    width: 350px;
+    height: 75px;
+    bottom: 50px;
+    left: 50px;
+    text-align:center;
+    color: black;
+}
+
+.gauffscore{
+    position: absolute;
+    background-color: rgb(74, 68, 160);
+    width: 175px;
+    height: 75px;
+    top: 105px;
+    left: 30px;
+    text-align:center;
+    color: black;
+}
+
+.zhangscore{
+    position: absolute;
+    background-color: rgb(74, 68, 160);
+    width: 175px;
+    height: 75px;
+    top: 105px;
+    left: 205px;
+    text-align:center;
+    color: black;
+}
+
+.abcnetwork{
+    position: absolute;
+    background-color: rgb(177, 175, 197);
+    width: 350px;
+    height: 55px;
+    top: 55px;
+    left: 30px;
+    text-align:center;
+    color: rgb(74, 68, 160);
+}
+
