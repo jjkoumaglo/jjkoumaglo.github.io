@@ -1,0 +1,27 @@
+body {
+    font: 1em / 1;
+    text-align: center;
+    font-family: 'Montserrat', 'Genova', 'Times new roman'; 
+    background-color: rgb(197, 172, 146);   
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+
+p {
+    background: #e5b029;
+    color: #5e2612;
+    padding: 20px;
+    visibility: hidden;
+}
