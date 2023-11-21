@@ -47,6 +47,6 @@ function changeBG() {
     let color = getRandomColor();
     newBtn.style.background = color;
 }
-
+// for this generator I kept most of the same functions, and I added a joke generator API. With each click the background color of the button changes as a new joke appears in the box. 
 
 getQuote();
