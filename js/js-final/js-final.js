@@ -25,7 +25,7 @@ class Ball {
     // Create a div element for the ball
     this.element = document.createElement('div');
     this.element.className = 'ball';
-    this.element.textContent = random(1, 9); // Assign a random number to the ball
+    this.element.textContent = random(0, 9); // Assign a random number to the ball
     this.element.style.position = 'absolute';
     this.element.style.width = `${size}px`;
     this.element.style.height = `${size}px`;
@@ -67,7 +67,7 @@ class Ball {
     }
 
     const balls = [];
-    while (balls.length < 35) {
+    while (balls.length < 25) {
       const size = random(40, 60);
       const ball = new Ball(
         random(0 + size, width - size),
@@ -109,3 +109,10 @@ class Ball {
     document.getElementById("deleteButton").addEventListener("click", function () {
       display.value = ""; // Clear the input field
     });
+
+    // Add a submit button
+  document.getElementById('submitButton').addEventListener('click', function() {
+  alert('Sick you did it! ' + document.getElementById('display').value);
+});
+
+

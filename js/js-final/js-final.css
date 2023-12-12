@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: #F0F0F0;
+    background-color: #7facef;
 }
 #bouncyBallCanvas {
     border: 5px solid #333;
@@ -35,21 +35,32 @@ body {
 
 #phoneNumber {
   position: absolute;
-  bottom: 20px;
-  left: 70%;
-  transform: translateX(-50%);
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
   text-align: center;
-
 }
 
 #phoneNumber label {
   font-size: 30px;
   color: whitesmoke;
-  
 }
 
 #display {
   font-size: 16px;
   padding: 5px;
   color: #7babe7;
+}
+
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+canvas {
+  display: block; /* Ensures canvas is treated as a block element */
+  margin-top: 80px; /* Adjust as needed */
 }
